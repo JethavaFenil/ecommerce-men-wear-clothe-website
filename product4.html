@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <header>
+      <div class="navbar">
+            <a href="home.php"><img src="photos/logo.jpg" alt="Logo"></a>
+            <a href="home.php"><p>ClickShop</p></a>
+            <div class="navlinks">
+                <a href="home.php">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="cart.php">Cart</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="#" id="close"><i class="fa-solid fa-circle-xmark"></i></a>
+            </div>
+              <div class="search">
+                  <i class="fa-solid fa-magnifying-glass" id="serch"></i>
+                  <input type="text" id="serchbox" placeholder="Search">
+              </div>    
+              <div class="uc">
+                <a href="#"><i class="fa-solid fa-user" id="user"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+              </div>
+              <div class="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
+              </div>
+      </div>
+    </header>
+    <main>
+        <div class="product">
+            <div class="pimg">
+                <div class="pimg1"><img id="mi" src="https://th.bing.com/th?id=OIP.9OuRP5uUM1D4wHtMsv4RvAHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2"></div>
+                <div class="peimg">
+                    <img class="si" src="https://th.bing.com/th?id=OIP.9OuRP5uUM1D4wHtMsv4RvAHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="t-shirt1">
+                    <img class="si" src="https://th.bing.com/th?id=OIP.8NXojcjINPf6uqRRB_aB_wHaKl&w=209&h=298&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="t-shirt1">
+                    <img class="si" src="https://th.bing.com/th?id=OIP.jl_ts0UNEz-dpoH_HLs70QHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="t-shirt1">
+                    <img class="si" src="https://th.bing.com/th?id=OIP.nDlodCt4XkirY14yPwk3iAHaJ4&w=216&h=288&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="t-shirt1">
+                </div>
+            </div>
+            <div class="pdesc">
+                <span>Zudio</span>
+                <p id="dhead">Jeans</p>
+                <p id="dprice">₹450</p>
+                <select>
+                  <option value="Select Size">Select Size</option>
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                  <option>XL</option>
+                  <option>XXL</option>
+                </select> <br>
+                <input type="text" placeholder="1">
+                <button id="bcart">Add To Cart</button>
+                <div class="star1">
+                  <p id="r">3.5<i class="fas fa-star"></i></p>
+                  <p id="rnu">(3049 Ratings & 200 Reviews) </p>
+                </div>
+                <p id="pd">Product Details</p>
+                <p id="pdd">Discover the perfect blend of style and comfort with our men’s premium jeans. Designed to cater to your everyday needs, these jeans are a wardrobe essential for any modern man.Choose from a range of washes, from classic dark indigo to trendy light wash.Our men’s jeans are designed to offer the perfect combination of comfort and fashion. Whether you’re dressing up or down, these jeans will keep you looking sharp and feeling great all day long.</p>
+            </div>
+        </div>
+        <p id="fp">Feutured Products</p>
+        <div class="shop-section">
+            <div class="box" onclick="window.location.href='product1.html'">
+                <div class="box-content">
+                  <h3>T-Shirts</h3>
+                  <div class="boxi1">
+                      <a href="#"><img src="https://th.bing.com/th?id=OIP.y6eTOLJfQ96XKdRKDqu2xgHaJQ&w=223&h=279&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="t-shirt1"></a>
+                      <div class="desc">
+                          <span>Adidas</span>
+                          <h5>Round Necked T-Shirts</h5>
+                          <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <h4>₹450</h4>
+                      </div>
+                      <a href="#"><span>Show More</span></a>
+                      <a href="#"><i class="fa-solid fa-cart-shopping" id="carti"></i></a>
+                  </div>
+                </div>    
+              </div>
+            <div class="box" onclick="window.location.href='product2.html'">
+                <div class="box-content">
+                  <h3>Trousers</h3>
+                  <div class="boxi1">
+                      <img src="https://th.bing.com/th?id=OIP.liXWbOZtrpocsJUvoCXXLAHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.6&pid=3.1&rm=2" alt="trouser">
+                      <div class="desc">
+                        <span>Urban Clothing</span>
+                        <h5>Fitted Trousers</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹600</h4>
+                    </div>
+                    <a href="#"><span>See More</span></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping" id="carti"></i></a>
+                  </div>
+                </div>
+            </div>
+            <div class="box" onclick="window.location.href='product3.html'">
+                <div class="box-content">
+                  <h3>Shirts</h3>
+                  <div class="boxi1">
+                      <img src="https://th.bing.com/th/id/OIP.t3B9z-SxD9RqjG5hqwyTggHaJt?w=162&h=212&c=7&r=0&o=5&dpr=1.6&pid=1.7" alt="shirt">
+                      <div class="desc">
+                        <span>Polo</span>
+                        <h5>Checks Shirts</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹550</h4>
+                    </div>
+                    <a href="#"><span>Show More</span></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping" id="carti"></i></a>
+                  </div>
+                </div>
+              </div>
+            <div class="box">
+              <div class="box-content">
+                <h3>Jeans</h3>
+                <div class="boxi1">
+                    <img src="https://th.bing.com/th/id/OIP.zx1F3Pz9WS1iRkhQg2jJDwAAAA?w=193&h=193&c=7&r=0&o=5&dpr=1.6&pid=1.7" alt="jeans">
+                    <div class="desc">
+                      <span>D'Cott</span>
+                      <h5>Fitted Jeans</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>₹450</h4>
+                  </div>
+                  <a href="#"><span>Show More</span></a>
+                  <a href="#"><i class="fa-solid fa-cart-shopping" id="carti"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer>
+      <div class="mf">
+      <div class="footermain">
+         <a href="home.php"><img src="photos/logo.jpg" alt="Logo"></a>
+         <a href="home.php"><p>ClickShop</p></a>
+         <div class="footerlinks">
+             <a href="#">About Us</a>
+             <a href="#">Contact Us</a>
+             <a href="#">Features</a>
+             <a href="#">FAQs</a>
+             <a href="#">Terms and Conditions</a>
+         </div>
+      </div>
+      <hr>
+      <div class="cpy">
+        <div class="cp">
+         <i class="fa-solid fa-copyright" id="cp"></i><p id="br">2022 Brand, inc.</p>
+         <li>terms</li><li>conditions</li></div>
+         <div class="t">
+         <i class="fa-brands fa-twitter" id="twitter"></i>
+         <i class="fa-brands fa-facebook" id="facebook"></i>
+         <i class="fa-brands fa-linkedin" id="linkedin"></i>
+         <i class="fa-brands fa-youtube" id="youtube"></i></div>
+    </div>
+    </div>
+    </footer>
+    </div>
+    <script>
+      var mi = document.querySelector('#mi');
+      var si = document.getElementsByClassName("si");
+      si[0].onclick = function(){
+        mi.src=si[0].src;
+      }      
+      si[1].onclick = function(){
+        mi.src=si[1].src;
+      }
+      si[2].onclick = function(){
+        mi.src=si[2].src;
+      }
+      si[3].onclick = function(){
+        mi.src=si[3].src;
+      }
+    </script>
+</body>
+</html>
